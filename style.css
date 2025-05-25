@@ -1,0 +1,124 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  background-color: #0f172a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.nav__content .logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.section {
+  padding: 3rem 2rem;
+}
+
+.section__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image img {
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+.title span {
+  color: #2563eb;
+}
+
+.action__btns {
+  margin-top: 1rem;
+}
+
+.action__btns a {
+  text-decoration: none;
+  color: white;
+}
+
+.hire__me, .resume {
+  padding: 0.7rem 1.5rem;
+  margin-right: 1rem;
+  border: none;
+  background-color: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about__container, .projects__container, .certification__section ul, .skills__section ul {
+  margin-top: 1.5rem;
+}
+
+.education__grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.education__item {
+  background: #fff;
+  padding: 1rem;
+  border-left: 5px solid #2563eb;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 250px;
+}
+
+.project__card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #10b981;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+}
+
+.social-logo {
+  width: 30px;
+  height: 30px;
+}
